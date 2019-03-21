@@ -28,8 +28,8 @@ public class SpeedRecyclerView extends RecyclerView {
 
     @Override
     public boolean fling(int velocityX, int velocityY) {
-        velocityX = solveVelocity(velocityX);
-        velocityY = solveVelocity(velocityY);
+//        velocityX = solveVelocity(velocityX);
+//        velocityY = solveVelocity(velocityY);
         return super.fling(velocityX, velocityY);
     }
 
